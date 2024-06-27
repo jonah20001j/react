@@ -1,0 +1,136 @@
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.iconCircle{
+  border-radius: 0px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+list-style: none;
+padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 0 0 1.25rem;
+}
+
+.lightText {
+  color: #666;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* 垂直居中對齊圖片 */
+  justify-content: center; /* 水平居中對齊圖片 */
+  gap: 10px; /* 圖片之間的間距，可以根據需要調整 */
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center; /* 垂直居中對齊圖片 */
+  justify-content: center; /* 水平居中對齊圖片 */
+  gap: 10px; /* 圖片之間的間距，可以根據需要調整 */
+}
+
+.newSection {
+  width: 100%;
+  height: 200px; /* 設置區塊高度 */
+  border: 2px solid #000; /* 設置邊框 */
+  margin: 20px auto; /* 自動水平居中 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addButton, .removeButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px; /* 按鈕之間的間距 */
+}
+
+.itemBox {
+  border: 1px solid #000; /* 設置物件邊框 */
+  padding: 5px; /* 設置物件內邊距 */
+  border-radius: 5px; /* 設置物件邊框圓角 */
+  background-color: #aee66f; /* 設置物件背景色 */
+  margin-bottom: 10px; /* 設置物件之間的間距 */
+}
+
+.fullscreenButton {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+
+.title_2 {
+  background-color: #8FBC8F;
+  text-align: center;    /* 內容文本水平置中 */
+  line-height: 50px;    /* 內容文本垂直置中 */
+  /* padding: 0 1rem;
+  margin: 0rem auto 6rem; */
+}
+
+
+/* .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+} */

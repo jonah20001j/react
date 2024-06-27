@@ -1,0 +1,191 @@
+.container {
+
+  width: 100%;
+  /* max-width: 36rem;
+  padding: 0 1rem;
+  margin: 0rem auto 6rem; */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+.percentage_size {
+  width: 100%; /* 設置寬度為視窗的 100% */
+  /* 設置高度為視窗的 100% */
+  /* height: 100vh;  */
+  /* display: flex; */
+  /* 垂直居中對齊內容 */
+  /* align-items: center;  */
+  /* 水平居中對齊內容 */
+  /* justify-content: center;  */
+}
+
+.title_1 {
+  background-color: #8FBC8F;
+  text-align: center;
+  line-height: 50px;    /* 內容文本垂直置中 */
+  position: relative; /* 使子元素的絕對定位相對於此容器 */
+  display: flex;
+  justify-content: center;
+  /* 設置容器高度，根據需要調整 */
+  /* height: 300px; */
+}
+
+.title_2 {
+  background-color: #8FBC8F;
+  text-align: center;    /* 內容文本水平置中 */
+  line-height: 50px;    /* 內容文本垂直置中 */
+  /* padding: 0 1rem;
+  margin: 0rem auto 6rem; */
+}
+
+.title_3 {
+  background-color: #8FBC8F;
+  text-align: center;    /* 內容文本水平置中 */
+  line-height: 50px;    /* 內容文本垂直置中 */
+  /* padding: 0 1rem;
+  margin: 0rem auto 6rem; */
+}
+
+
+
+.colorFactory{
+ background-color:#F0F8FF;
+ background-color:#FAEBD7;
+ background-color:#00FFFF;
+ background-color:#7FFFD4;
+ background-color:#F0FFFF;
+ background-color:#F5F5DC;
+ background-color:#FFE4C4;
+ background-color:#FFEBCD;
+ background-color:#8A2BE2;
+ background-color:#A52A2A;
+ background-color:#DEB887;
+ background-color:#5F9EA0;
+ background-color:#7FFF00;
+ background-color:#D2691E;
+ background-color:#FF7F50;
+ background-color:#6495ED;
+ background-color:#FFF8DC;
+ background-color:#DC143C;
+ background-color:#00008B;
+ background-color:#008B8B;
+ background-color:#B8860B;
+ background-color:#A9A9A9;
+ background-color:#006400;
+ background-color:#BDB76B;
+ background-color:#8B008B;
+ background-color:#556B2F;
+ background-color:#FF8C00;
+ background-color:#9932CC;
+ background-color:#8B0000;
+ background-color:#E9967A;
+ background-color:#8FBC8F;
+ background-color:#483D8B;
+ background-color:#2F4F4F;
+ background-color:#00CED1;
+ background-color:#9400D3;
+ background-color:#FF1493;
+ background-color:#00BFFF;
+ background-color:#696969;
+ background-color:#1E90FF;
+ background-color:#B22222;
+ background-color:#FFFAF0;
+ background-color:#228B22;
+ background-color:#FF00FF;
+ background-color:#DCDCDC;
+ background-color:#F8F8FF;
+ background-color:#FFD700;
+ background-color:#DAA520;
+ background-color:#ADFF2F;
+ background-color:#F0FFF0;
+ background-color:#FF69B4;
+ background-color:#CD5C5C;
+ background-color:#4B0082;
+ background-color:#FFFFF0;
+ background-color:#F0E68C;
+ background-color:#E6E6FA;
+ background-color:#FFF0F5;
+ background-color:#7CFC00;
+ background-color:#FFFACD;
+ background-color:#ADD8E6;
+ background-color:#F08080;
+ background-color:#E0FFFF;
+ background-color:#FAFAD2;
+ background-color:#D3D3D3;
+ background-color:#90EE90;
+ background-color:#FFB6C1;
+ background-color:#FFA07A;
+ background-color:#20B2AA;
+ background-color:#87CEFA;
+ background-color:#778899;
+ background-color:#B0C4DE;
+ background-color:#FFFFE0;
+ background-color:#00FF00;
+ background-color:#32CD32;
+ background-color:#FAF0E6;
+ background-color:#800000;
+ background-color:#66CDAA;
+ background-color:#0000CD;
+ background-color:#BA55D3;
+ background-color:#9370DB;
+ background-color:#3CB371;
+ background-color:#7B68EE;
+ background-color:#00FA9A;
+ background-color:#48D1CC;
+ background-color:#C71585;
+ background-color:#191970;
+ background-color:#F5FFFA;
+ background-color:#FFE4E1;
+ background-color:#FFE4B5;
+ background-color:#FFDEAD;
+ background-color:#000080;
+ background-color:#FDF5E6;
+ background-color:#808000;
+ background-color:#6B8E23;
+ background-color:#FFA500;
+ background-color:#FF4500;
+ background-color:#DA70D6;
+ background-color:#EEE8AA;
+ background-color:#98FB98;
+ background-color:#AFEEEE;
+ background-color:#DB7093;
+ background-color:#FFEFD5;
+ background-color:#FFDAB9;
+ background-color:#CD853F;
+ background-color:#FFC0CB;
+ background-color:#DDA0DD;
+ background-color:#B0E0E6;
+ background-color:#800080;
+ background-color:#663399;
+ background-color:#BC8F8F;
+ background-color:#4169E1;
+ background-color:#8B4513;
+ background-color:#FA8072;
+ background-color:#F4A460;
+ background-color:#2E8B57;
+ background-color:#FFF5EE;
+ background-color:#A0522D;
+ background-color:#87CEEB;
+ background-color:#6A5ACD;
+ background-color:#708090;
+ background-color:#FFFAFA;
+ background-color:#00FF7F;
+ background-color:#4682B4;
+ background-color:#D2B48C;
+ background-color:#008080;
+ background-color:#D8BFD8;
+ background-color:#FF6347;
+ background-color:#40E0D0;
+ background-color:#EE82EE;
+ background-color:#F5DEB3;
+ background-color:#F5F5F5;
+ background-color:#9ACD32;
+}
