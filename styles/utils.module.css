@@ -1,136 +1,174 @@
 .heading2Xl {
-  font-size: 2.5rem;
-  line-height: 1.2;
-  font-weight: 800;
-  letter-spacing: -0.05rem;
-  margin: 1rem 0;
+  font-size: 2.5rem; /* 設置字體大小為 2.5 倍的根元素字體大小 */
+  line-height: 1.2; /* 設置行高為字體大小的 1.2 倍 */
+  font-weight: 800; /* 設置字體粗細為 800（特粗） */
+  letter-spacing: -0.05rem; /* 設置字母間距為 -0.05 倍的根元素字體大小 */
+  margin: 1rem 0; /* 設置上下邊距為 1 倍的根元素字體大小，左右邊距為 0 */
 }
 
 .headingXl {
-  font-size: 2rem;
-  line-height: 1.3;
-  font-weight: 800;
-  letter-spacing: -0.05rem;
-  margin: 1rem 0;
+  font-size: 2rem; /* 設置字體大小為 2 倍的根元素字體大小 */
+  line-height: 1.3; /* 設置行高為字體大小的 1.3 倍 */
+  font-weight: 800; /* 設置字體粗細為 800（特粗） */
+  letter-spacing: -0.05rem; /* 設置字母間距為 -0.05 倍的根元素字體大小 */
+  margin: 1rem 0; /* 設置上下邊距為 1 倍的根元素字體大小，左右邊距為 0 */
 }
 
 .headingLg {
-  font-size: 1.5rem;
-  line-height: 1.4;
-  margin: 1rem 0;
+  font-size: 1.5rem; /* 設置字體大小為 1.5 倍的根元素字體大小 */
+  line-height: 1.4; /* 設置行高為字體大小的 1.4 倍 */
+  margin: 1rem 0; /* 設置上下邊距為 1 倍的根元素字體大小，左右邊距為 0 */
 }
 
 .headingMd {
-  font-size: 1.2rem;
-  line-height: 1.5;
+  font-size: 1.2rem; /* 設置字體大小為 1.2 倍的根元素字體大小 */
+  line-height: 1.5; /* 設置行高為字體大小的 1.5 倍 */
 }
 
 .borderCircle {
-  border-radius: 9999px;
+  border-radius: 9999px; /* 設置邊框半徑為 9999 像素，使其成為圓形 */
 }
 
 .iconCircle{
-  border-radius: 0px;
+  border-radius: 0px; /* 設置邊框半徑為 0 像素，無圓角 */
 }
 
 .colorInherit {
-  color: inherit;
+  color: inherit; /* 繼承父元素的文字顏色 */
 }
 
 .padding1px {
-  padding-top: 1px;
+  padding-top: 1px; /* 設置上內邊距為 1 像素 */
 }
 
 .list {
-list-style: none;
-padding: 0;
-  margin: 0;
+  list-style: none; /* 移除列表的預設樣式（如圓點、數字等） */
+  padding: 0; /* 移除內邊距 */
+  margin: 0; /* 移除外邊距 */
 }
 
 .listItem {
-  margin: 0 0 1.25rem;
+  margin: 0 0 1.25rem; /* 設置底部外邊距為 1.25 倍的根元素字體大小，上、左、右邊距為 0 */
 }
 
 .lightText {
-  color: #666;
+  color: #666; /* 設置文字顏色為深灰色 */
 }
 
 .flexContainer {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center; /* 垂直居中對齊圖片 */
-  justify-content: center; /* 水平居中對齊圖片 */
-  gap: 10px; /* 圖片之間的間距，可以根據需要調整 */
-}
-
-.flexContainer {
-  display: flex;
-  align-items: center; /* 垂直居中對齊圖片 */
-  justify-content: center; /* 水平居中對齊圖片 */
-  gap: 10px; /* 圖片之間的間距，可以根據需要調整 */
+  display: flex; /* 設置為彈性盒子布局 */
+  flex-wrap: wrap; /* 允許彈性項目換行 */
+  align-items: center; /* 垂直方向上居中對齊 */
+  justify-content: center; /* 水平方向上居中對齊 */
+  gap: 10px; /* 彈性項目之間的間距為 10 像素 */
 }
 
 .newSection {
-  width: 100%;
-  height: 200px; /* 設置區塊高度 */
-  border: 2px solid #000; /* 設置邊框 */
-  margin: 20px auto; /* 自動水平居中 */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100%; /* 寬度設置為 100% */
+  min-height: 200px; /* 設置最小高度為 200 像素 */
+  border: 2px solid #000; /* 設置邊框為 2 像素寬，黑色實線 */
+  margin: 20px auto; /* 設置上下外邊距為 20 像素，左右邊距自動 */
+  display: flex; /* 設置為彈性盒子布局 */
+  flex-wrap: wrap; /* 允許彈性項目換行 */
+  align-items: center; /* 垂直方向上居中對齊 */
+  justify-content: center; /* 水平方向上居中對齊 */
+  padding: 10px; /* 設置內邊距為 10 像素 */
+  box-sizing: border-box; /* 包括內邊距和邊框在內 */
+  overflow: auto; /* 當內容溢出時顯示滾動條 */
 }
 
 .addButton, .removeButton {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-right: 10px; /* 按鈕之間的間距 */
+  margin-top: 20px; /* 設置上外邊距為 20 像素 */
+  padding: 10px 20px; /* 設置上下內邊距為 10 像素，左右內邊距為 20 像素 */
+  font-size: 16px; /* 設置字體大小為 16 像素 */
+  cursor: pointer; /* 設置鼠標移動到元素上時顯示指針 */
+  margin-right: 10px; /* 設置右外邊距為 10 像素 */
 }
 
 .itemBox {
-  border: 1px solid #000; /* 設置物件邊框 */
-  padding: 5px; /* 設置物件內邊距 */
-  border-radius: 5px; /* 設置物件邊框圓角 */
-  background-color: #aee66f; /* 設置物件背景色 */
-  margin-bottom: 10px; /* 設置物件之間的間距 */
+  border: 1px solid #000; /* 設置邊框為 1 像素寬，黑色實線 */
+  padding: 5px; /* 設置內邊距為 5 像素 */
+  border-radius: 5px; /* 設置邊框圓角半徑為 5 像素 */
+  background-color: #aee66f; /* 設置背景顏色為淡綠色 */
+  margin-bottom: 10px; /* 設置底部外邊距為 10 像素 */
 }
 
 .fullscreenButton {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 9999px;
+  position: absolute; /* 設置為絕對定位 */
+  bottom: 10px; /* 設置底部位置為 10 像素 */
+  left: 50%; /* 設置左側位置為父元素寬度的 50% */
+  transform: translateX(-50%); /* 水平平移 -50%，使其居中 */
+  padding: 10px 20px; /* 設置上下內邊距為 10 像素，左右內邊距為 20 像素 */
+  font-size: 16px; /* 設置字體大小為 16 像素 */
+  cursor: pointer; /* 設置鼠標移動到元素上時顯示指針 */
+  border-radius: 9999px; /* 設置邊框半徑為 9999 像素，使其成為圓形 */
 }
 
 .title_2 {
-  background-color: #8FBC8F;
-  text-align: center;    /* 內容文本水平置中 */
-  line-height: 50px;    /* 內容文本垂直置中 */
+  background-color: #8FBC8F; /* 設置背景顏色為淡綠色 */
+  text-align: center;    /* 設置文本水平居中對齊 */
+  line-height: 50px;    /* 設置行高為 50 像素，使文本垂直居中 */
   /* padding: 0 1rem;
   margin: 0rem auto 6rem; */
 }
 
-
-/* .modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.courtContainer {
+  position: relative; /* 設置為相對定位 */
+  width: 300px; /* 設置寬度為 300 像素 */
+  height: 400px; /* 設置高度為 400 像素 */
+  background-size: cover; /* 背景圖片覆蓋整個容器 */
+  background-position: center; /* 背景圖片居中顯示 */
+  margin: 10px; /* 設置外邊距為 10 像素 */
+  border: 1px solid #ccc; /* 設置邊框為 1 像素寬，灰色實線 */
+  border-radius: 10px; /* 設置邊框圓角半徑為 10 像素 */
+  overflow: hidden; /* 超出部分隱藏 */
+  justify-content: center; /* 水平方向上居中對齊（可能需要配合 display:flex 使用） */
 }
 
-.modalContent {
-  background: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-} */
+.selected {
+  /* background-color: #f0f0f0; */
+  border: 5px solid #0070f3; /* 設置選中狀態時的邊框樣式，5 像素寬，藍色實線 */
+}
+
+.playerInfo {
+  position: absolute; /* 設置為絕對定位 */
+  background-color: rgba(255, 255, 255, 0.7); /* 設置背景顏色為白色，透明度為 70% */
+  padding: 5px; /* 設置內邊距為 5 像素 */
+  border-radius: 5px; /* 設置邊框圓角半徑為 5 像素 */
+}
+
+.team1Left {
+  top: 10px; /* 設置頂部位置為 10 像素 */
+  left: 10px; /* 設置左側位置為 10 像素 */
+}
+
+.team1Right {
+  top: 10px; /* 設置頂部位置為 10 像素 */
+  right: 10px; /* 設置右側位置為 10 像素 */
+}
+
+.team2Left {
+  bottom: 10px; /* 設置底部位置為 10 像素 */
+  left: 10px; /* 設置左側位置為 10 像素 */
+}
+
+.team2Right {
+  bottom: 10px; /* 設置底部位置為 10 像素 */
+  right: 10px; /* 設置右側位置為 10 像素 */
+}
+
+.courtNumber {
+  position: absolute; /* 設置為絕對定位 */
+  top: 10px; /* 設置頂部位置為 10 像素 */
+  left: 50%; /* 設置左側位置為 50% */
+  transform: translateX(-50%); /* 水平平移 -50%，使其居中 */
+  background-color: rgba(0, 0, 0, 0.5); /* 設置背景顏色為黑色，透明度為 50% */
+  color: white; /* 設置文字顏色為白色 */
+  padding: 5px 10px; /* 設置上下內邊距為 5 像素，左右內邊距為 10 像素 */
+  border-radius: 5px; /* 設置邊框圓角半徑為 5 像素 */
+  font-weight: bold; /* 設置字體粗細為粗體 */
+  display: flex; /* 設置為彈性盒子布局 */
+  justify-content: center; /* 水平方向上居中對齊 */
+  align-items: center; /* 垂直方向上居中對齊 */
+  width: fit-content; /* 寬度根據內容調整 */
+}
